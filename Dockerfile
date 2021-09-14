@@ -1,1 +1,1 @@
-FROM library/alpine:3.13.6.sha256:d04f568d1401e6bcc2c34bd81ac1035ba1d8fc3a03b92c78e84cec61e028d6ea
+FROM library/alpine:3.13.6@sha256:e15947432b813e8ffa90165da919953e2ce850bef511a0ad1287d7cb86de84b5
