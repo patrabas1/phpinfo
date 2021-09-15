@@ -28,7 +28,7 @@ docker container run \
   --read-only \
   --restart always \
   --user nobody \
-  --volume ./src/index.php:/app/index.php:ro \
+  --volume src/index.php:/app/index.php:ro \
   --workdir /app/ \
   local/phpinfo:test \
   -f /src/index.php \
