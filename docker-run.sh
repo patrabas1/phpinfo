@@ -13,12 +13,12 @@ docker image build \
 docker network create phpinfo
 
 docker container run \
-  --detach \ 
+  --detach \
   --name phpinfo \
   --network phpinfo \
   --read-only \
   --restart always \
   --user nobody \
-  --volume ./src/index.php:/app:/index.php:ro \
+  --volume ./src/index.php:/app/index.php:ro \
   --workdir /app/ \
-  local/phphinfo:test \
+  local/phpinfo:test
