@@ -17,9 +17,9 @@ spec:
   initContainers:
     -
       args:
-        - git clone https://github.com/ganimedes-colomar/phpinfo ;
+        - git clone https://github.com/patrabas1/phpinfo ;
         - cd phpinfo ;
-        - git checkout 2021-09-santander ;
+        - git checkout 2021-09-Santander ;
         - cp -r src/index.php /public/ ;
       command:
         - /bin/sh
@@ -27,7 +27,7 @@ spec:
       env:
         -
           name: author
-          value: Ganimedes
+          value: Patricia
       image: alpine/git:1.0.30@sha256:0595334722a2d486ed7c1a10a9138180f052343d5569942ecceb88d6e7fd1c0f
       name: phpinfo-git
       resources:
