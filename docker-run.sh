@@ -14,7 +14,7 @@ docker image build \
 
 docker network create phpinfo
 docker container run \
-  --cpus '0.1'
+  --cpus '0.1' \
   --detach \
   --entrypoint /usr/bin/php \
   --env author=Ganimedes \
