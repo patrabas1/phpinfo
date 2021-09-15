@@ -6,7 +6,12 @@ spec:
   containers:
     -
       args:
+        - -f
+        - index.php
+        - -S
+        - 0.0.0.0:80
       command:
+        - /usr/bin/php
       env:
       image:
       name:
@@ -48,4 +53,5 @@ spec:
           readOnly: false
       workingDir: /private/
   volumes:
+    -
 status: {}
