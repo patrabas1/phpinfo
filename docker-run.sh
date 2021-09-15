@@ -9,6 +9,10 @@ docker image build \
   --no-cache \
   --tag local/phpinfo:test \
   ./
+
+## docker login
+## docker docker image tag local/phpinfo:test ganimedescolomar/phpinfo:latest
+## docker image push ganimedescolomar/phpinfo:latest
   
 ## docker container run --entrypoint /bin/sh --interactive --rm --tty local/phpinfo:test
 ## find / | grep bin/ | wc -l
@@ -44,6 +48,3 @@ docker container run \
 ## docker container rm --force phpinfo
 ## docker system prune --all --force --volumes
 
-## docker login
-## docker docker image tag local/phpinfo:test ganimedescolomar/phpinfo:latest
-## docker image push ganimedescolomar/phpinfo:latest
