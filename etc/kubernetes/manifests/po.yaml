@@ -53,5 +53,14 @@ spec:
           readOnly: false
       workingDir: /private/
   volumes:
-    -
+    - 
+      emptyDir:
+        medium: Memory
+        sizeLimit: 1M
+      name: private
+    - 
+      emptyDir:
+        medium: Memory
+        sizeLimit: 1M
+      name: public
 status: {}
