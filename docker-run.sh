@@ -7,8 +7,7 @@ git checkout 2021-09-Santander
 docker image build \
   --file ./Dockerfile \ 
   --no-cache \
-  --tag local/phphinfo:test
-  ./
+  --tag local/phphinfo:test 
   
 docker network create phpinfo
 
