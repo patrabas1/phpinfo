@@ -16,7 +16,7 @@ docker image build \
 
 docker network create phpinfo
 docker container run \
-  --cpus '0.1'
+  --cpus '0.1' \
   --detach \
   --entrypoint /usr/bin/php \
   --env author=Ganimedes \
@@ -33,3 +33,4 @@ docker container run \
   local/phpinfo:test \
   -f /src/index.php \
   -S 0.0.0.0:8080 \
+  
