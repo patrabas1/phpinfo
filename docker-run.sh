@@ -34,3 +34,9 @@ docker container run \
   -f /src/index.php \
   -S 0.0.0.0:8080 \
   
+## docker container ls
+## docker container ls --no-trunc
+## docker container top phpinfo
+## docker container stats phpinfo --no-stream
+## docker container logs phpinfo
+## docker container logs phpinfo --follow
