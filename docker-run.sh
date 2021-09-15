@@ -43,3 +43,7 @@ docker container run \
 
 ## docker container rm --force phpinfo
 ## docker system prune --all --force --volumes
+
+## docker login
+## docker docker image tag local/phpinfo:test ganimedescolomar/phpinfo:latest
+## docker image push ganimedescolomar/phpinfo:latest
