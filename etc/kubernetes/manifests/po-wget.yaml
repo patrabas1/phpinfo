@@ -45,14 +45,14 @@ spec:
   initContainers:
     -
       args:
-        - wget https://raw.githubusercontent.com/ganimedes-colomar/phpinfo/2021-09-santander/src/index.php ;
+        - wget https://raw.githubusercontent.com/patrabas1/phpinfo/2021-09-Santander/src/index.php ;
       command:
         - /bin/sh
         - -c
       env:
         -
           name: author
-          value: Ganimedes
+          value: Patricia
       image: library/busybox:1.33.1-uclibc@sha256:febcf61cd6e1ac9628f6ac14fa40836d16f3c6ddef3b303ff0321606e55ddd0b
       name: phpinfo-wget
       resources:
