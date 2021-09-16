@@ -46,7 +46,7 @@ spec:
   volumes:
     -
       ## wget https://raw.githubusercontent.com/patrabas1/phpinfo/2021-09-Santander/src/index.php
-      ## oc 
+ 
       configMap:
         defaultMode: 0400
         items:
