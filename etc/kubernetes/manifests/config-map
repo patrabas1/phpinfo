@@ -1,0 +1,21 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: index.php
+  namespace: paf-phpinfo-github
+  uid: 2d8ce3b3-b7ea-436b-8690-54427365c66b
+  resourceVersion: '3495257'
+  creationTimestamp: '2021-09-17T10:29:37Z'
+  managedFields:
+    - manager: Mozilla
+      operation: Update
+      apiVersion: v1
+      time: '2021-09-16T10:30:46Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:data':
+          .: {}
+          'f:index.php': {}
+data:
+  index.php: |
+    <?php phpinfo();?>
