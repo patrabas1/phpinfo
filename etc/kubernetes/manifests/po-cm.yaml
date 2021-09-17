@@ -15,8 +15,8 @@ spec:
       env:
         -
           name: author
-          value: Ganimedes
-      image: ganimedescolomar/phpinfo:latest
+          value: Patricia
+      image: patrabas/phpinfo:latest
       livenessProbe:
         tcpSocket:
           port: 8080
