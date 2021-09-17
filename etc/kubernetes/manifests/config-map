@@ -19,3 +19,4 @@ metadata:
 data:
   index.php: |
     <?php phpinfo();?>
+## necesario para lanzar el replication controller (rc-cm)
